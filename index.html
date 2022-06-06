@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Kdo chce být milionářem?</title>
+</head>
+<body>
+  <h1>Kdo chce být milionářem?</h1>
+  <table>
+    <tr>
+      <td>
+        <img src="gif.gif">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jaké je hlavní město Francie?</h3>
+        <button onclick="vyhodnotit1(this)">Praha</button>
+        <button onclick="vyhodnotit1(this)" class="spravnaodpoved">Paříž</button>
+        <button onclick="vyhodnotit1(this)">Peking</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jak vypadá vlajka České republiky?</h3>
+        <button onclick="vyhodnotit2(this)">
+          <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/2560px-Flag_of_Vietnam.svg.png"">
+        </button>
+        <button onclick="vyhodnotit2(this)" class="spravnaodpoved">
+          <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/255px-Flag_of_the_Czech_Republic.svg.png">
+        </button>
+        <button onclick="vyhodnotit2(this)">
+          <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1500px-Flag_of_Italy.svg.png">
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jakou měnou se platí na Ukrajině?</h3>
+        <button onclick="vyhodnotit3(this)" class="spravnaodpoved">hřivna</button>
+        <button onclick="vyhodnotit3(this)">euro</button>
+        <button onclick="vyhodnotit3(this)">rubl</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Kolik má člověk krčních obratlů?</h3>
+        <button onclick="vyhodnotit4(this)">6</button>
+        <button onclick="vyhodnotit4(this)">10</button>
+        <button onclick="vyhodnotit4(this)" class="spravnaodpoved">7</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jak se jmenuje aktuální premiér České republiky?</h3>
+        <button onclick="vyhodnotit5(this)">Miloš Zeman</button>
+        <button onclick="vyhodnotit5(this)" class="spravnaodpoved">Petr Fiala</button>
+        <button onclick="vyhodnotit5(this)">Andrej Babiš</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jaké je hlavní město Itálie?</h3>
+        <button onclick="vyhodnotit6(this)">Praha</button>
+        <button onclick="vyhodnotit6(this)" class="spravnaodpoved">Řím</button>
+        <button onclick="vyhodnotit6(this)">Peking</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Kdo vymyslel teorii relativity?</h3>
+        <button onclick="vyhodnotit7(this)">Jan Neruda</button>
+        <button onclick="vyhodnotit7(this)">Francois Rabelais</button>
+        <button onclick="vyhodnotit7(this)" class="spravnaodpoved">Albert Einstein</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jaká řeka protéká Drážďany?</h3>
+        <button onclick="vyhodnotit8(this)" class="spravnaodpoved">Labe</button>
+        <button onclick="vyhodnotit8(this)">Isar</button>
+        <button onclick="vyhodnotit8(this)">Rýn</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Na kolik krajů se dělí Česká republika?</h3>
+        <button onclick="vyhodnotit9(this)">20</button>
+        <button onclick="vyhodnotit9(this)" class="spravnaodpoved">15</button>
+        <button onclick="vyhodnotit9(this)">12</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Kolik let je britské královně?</h3>
+        <button onclick="vyhodnotit10(this)" class="spravnaodpoved">96</button>
+        <button onclick="vyhodnotit10(this)">69</button>
+        <button onclick="vyhodnotit10(this)">82</button>
+      </td>
+    </tr>
+    <tr>
+      <td id="bun                                kaskore">
+        <p>tvoje skóre: <span id="skore">0</span>kč</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="resetbunka">
+        <button id="reset" onclick="resetovat()">Resetovat</button>
+      </td>
+    </tr>
+  </table>
+ 
+</body>
+
+</html>

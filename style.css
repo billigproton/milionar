@@ -1,0 +1,39 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    background-image: url("5_000.jpg");
+    background-size: 70px;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-spacing: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: #D7DBEA;
+    color: #38446B;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    background-color: #EED3EE;
+    color: #491D49;
+    border-radius: 10px;
+  }
+  
+  button {
+    font-size: 17px;
+    padding: 5px;
+    background-color: #BFEDEF;
+    border-radius: 5px;
+    border: none;
+    color: #1D6E72;
+  }
+  
+  #reset {
+    background-color: #F2B1A6;
+    color: #6B1D0F;
+  }
