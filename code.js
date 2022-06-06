@@ -12,8 +12,8 @@
     var vyhodnoceno10 = false;
     function vyhodnotit1(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno1 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno1 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno1 == false){
         input.style.backgroundColor = "red";
@@ -24,8 +24,8 @@
     }
     function vyhodnotit2(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno2 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno2 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno2 == false){
         input.style.backgroundColor = "red";
@@ -36,8 +36,8 @@
     }
     function vyhodnotit3(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno3 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno3 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno3 == false){
         input.style.backgroundColor = "red";
@@ -48,8 +48,8 @@
     }
     function vyhodnotit4(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno4 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno4 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno4 == false){
         input.style.backgroundColor = "red";
@@ -60,8 +60,8 @@
     }
     function vyhodnotit5(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno5 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno5 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno5 == false){
         input.style.backgroundColor = "red";
@@ -72,8 +72,8 @@
     }
     function vyhodnotit6(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno6 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno6 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno6 == false){
         input.style.backgroundColor = "red";
@@ -84,8 +84,8 @@
     }
     function vyhodnotit7(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno7 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno7 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno7 == false){
         input.style.backgroundColor = "red";
@@ -96,8 +96,8 @@
     }
     function vyhodnotit8(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno8 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno8 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno8 == false){
         input.style.backgroundColor = "red";
@@ -108,8 +108,8 @@
     }
     function vyhodnotit9(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno9 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno9 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno9 == false){
         input.style.backgroundColor = "red";
@@ -120,8 +120,8 @@
     }
     function vyhodnotit10(input){
       if(input.className == "spravnaodpoved" && vyhodnoceno10 == false){
-        input.style.backgroundColor = "green";
-        skore += 500;
+        input.style.backgroundColor = "lightgreen";
+        skore += 100000;
         vyhodnoceno10 = true;
       } else if (input.className != "spravnaodpoved" && vyhodnoceno10 == false){
         input.style.backgroundColor = "red";
