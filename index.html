@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Chcete být milionářem?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Chcete být milionářem?</h1>
+  <table>
+    <tr>
+      <td>
+        <img src="img/vasut.jpeg">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Šohaj je označení pro</h3>
+        <button onclick="vyhodnotit(this)">podvodníka</button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">chlapce</button>
+        <button onclick="vyhodnotit(this)">zvíře</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Vyber současného prezidenta USA</h3>
+        <button onclick="vyhodnotit(this)">
+          <img width="100" src="img/trump.jpeg"">
+        </button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">
+          <img width="100" height="57" src="img/biden.jpeg">
+        </button>
+        <button onclick="vyhodnotit(this)">
+          <img width="100" height="57" src="img/truman.jpeg">
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Kdy Česká republika vstoupila do EU?</h3>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">2004</button>
+        <button onclick="vyhodnotit(this)">2007</button>
+        <button onclick="vyhodnotit(this)">1997</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Kdo byl první na Měsíci?</h3>
+        <button onclick="vyhodnotit(this)">Lance Armstrong</button>
+        <button onclick="vyhodnotit(this)">Louis Armstrong</button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">Neil Armstrong</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Do jaké skupiny řadíme jazyk Javascript?</h3>
+        <button onclick="vyhodnotit(this)">programovací jazyk</button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">skriptovací jazyk</button>
+        <button onclick="vyhodnotit(this)">značkovací jazyk</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Jaká je nejvyšší hora Evropy?</h3>
+        <button onclick="vyhodnotit(this)">Sněžka</button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">Mont Blanc</button>
+        <button onclick="vyhodnotit(this)">Mount Everest</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Ve kterém z těchto měst je univerzita?</h3>
+        <button onclick="vyhodnotit(this)">Řevnice</button>
+        <button onclick="vyhodnotit(this)">Roztoky u Prahy</button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">Oxford</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Který z těchto románů nenapsal Albert Camus?</h3>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">Lolita</button>
+        <button onclick="vyhodnotit(this)">Morový sloup</button>
+        <button onclick="vyhodnotit(this)">Cizinec</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Kolik je 10x5?</h3>
+        <button onclick="vyhodnotit(this)">80</button>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">50</button>
+        <button onclick="vyhodnotit(this)">45</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Ve kterém z těchto případů není pravopisná chyba?</h3>
+        <button onclick="vyhodnotit(this)" class="spravnaodpoved">byliny</button>
+        <button onclick="vyhodnotit(this)">bilyny</button>
+        <button onclick="vyhodnotit(this)">bylini</button>
+      </td>
+    </tr>
+    <tr>
+      <td id="bunkaskore">
+        <p>tvoje skóre: <span id="skore">0</span>&nbsp;Kč</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="resetbunka">
+        <button id="reset" onclick="resetovat()">Resetovat</button>
+      </td>
+    </tr>
+  </table>
+
+  <script src="code.js"></script>
+ 
+</body>
+
+</html>
